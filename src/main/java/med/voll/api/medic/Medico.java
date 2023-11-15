@@ -30,12 +30,37 @@ public class Medico {
   @Embedded
   private Endereco endereco;
 
+  private Boolean active;
+
   public Medico(DataMedico data) {
+    this.active = true;
     this.nome = data.nome();
     this.email = data.email();
     this.telefone = data.telefone();
     this.crm = data.crm();
     this.especialidade = data.especialidade();
     this.endereco = new Endereco(data.endereco());
+  }
+
+  public void updateInfos(DataUpateMedico data) {
+    if (data.nome() != null) {
+      this.nome = data.nome();
+    }
+
+    if (data.telefone() != null) {
+      this.telefone = data.telefone();
+    }
+
+    if (data.endereco() != null) {
+      this.endereco.updateEndInfos(data.endereco());
+    }
+  }
+
+  public void disable() {
+    this.active = false;
+  }
+
+  public void able() {
+    this.active = true;
   }
 }
