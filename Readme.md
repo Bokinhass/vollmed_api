@@ -12,4 +12,4 @@ spring.jpa.properties.hibernate.format_sql=true
 
 **** Part 1 ****
 
-- Create API base, link with database (using MYSQL) and finish CRUD.
+- Create API base, link with database (using MYSQL) and finish CRUD, create validations and pages & ordering. 
