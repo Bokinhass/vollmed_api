@@ -1,6 +1,6 @@
-package med.voll.api.medic;
+package med.voll.api.domain.medic;
 
-import med.voll.api.address.Endereco;
+import med.voll.api.domain.address.Endereco;
 
 public record DataDetailMedic (
         Long id,
