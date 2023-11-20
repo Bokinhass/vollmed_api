@@ -1,4 +1,4 @@
-package med.voll.api.infra;
+package med.voll.api.infra.exception;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.ResponseEntity;
@@ -19,7 +19,11 @@ public class Errors {
   public ResponseEntity handleError400(MethodArgumentNotValidException ex) {
     var error = ex.getFieldErrors();
 
-    return ResponseEntity.badRequest().body(error.stream().map(DataErrorValidation::new).toList());
+    return ResponseEntity.badRequest()
+            .body(error.stream()
+                    .map(DataErrorValidation::new)
+                    .toList()
+            );
   }
 
 
