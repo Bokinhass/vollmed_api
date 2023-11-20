@@ -8,3 +8,20 @@ https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med?type=design&node-id=2
 
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
+
+
+--- Part 1 ---
+
+- Create API Rest base;
+- Link with database (using MYSQL);
+- Finish CRUD;
+- Create validations;
+- Pages & ordering pages.
+
+
+--- Part 2 ---
+
+- Optimization API;
+- Create Error handling;
+- Using Authentication methods.
+

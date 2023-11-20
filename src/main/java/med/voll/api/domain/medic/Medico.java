@@ -1,11 +1,11 @@
-package med.voll.api.medic;
+package med.voll.api.domain.medic;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.api.address.Endereco;
+import med.voll.api.domain.address.Endereco;
 
 
 @Table(name = "medicos")
