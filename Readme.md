@@ -9,7 +9,6 @@ https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med?type=design&node-id=2
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 
-
 --- Part 1 ---
 
 - Create API Rest base;
@@ -18,10 +17,15 @@ spring.jpa.properties.hibernate.format_sql=true
 - Create validations;
 - Pages & ordering pages.
 
-
 --- Part 2 ---
 
 - Optimization API;
 - Create Error handling;
 - Using Authentication methods.
 
+--- Part 3 ---
+
+- Create Scheduling Appointments (Schedule & Medics & Date)
+- Documentation API
+- Create Tests
+- Build project
