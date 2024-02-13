@@ -26,6 +26,7 @@ spring.jpa.properties.hibernate.format_sql=true
 --- Part 3 ---
 
 - Create Scheduling Appointments (Schedule & Medics & Date)
+- Create Validations (Use Cases)
 - Documentation API
 - Create Tests
 - Build project
